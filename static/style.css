@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+}
+
+.header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.container{
+    display:flex;
+}
+
+.sidebar{
+    width:220px;
+    background:#004080;
+    color:white;
+    min-height:100vh;
+    padding:20px;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+}
+
+.sidebar li{
+    background:#0059b3;
+    margin:10px 0;
+    padding:10px;
+    border-radius:5px;
+}
+
+.content{
+    flex:1;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+    text-align:center;
+}
